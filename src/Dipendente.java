@@ -38,4 +38,6 @@ public abstract class Dipendente {
         if(stipendioMensile <= 0) throw new Exception("Stipendio non valido");
         this.stipendioMensile = stipendioMensile;
     }
+
+    public abstract Dipendente clone();
 }

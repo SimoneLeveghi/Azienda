@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd1a5831-b00d-4d23-b9ce-c6aa07108084" name="Changes" comment="Add new abstract class Dipendente">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="bd1a5831-b00d-4d23-b9ce-c6aa07108084" name="Changes" comment="Add new class Azienda">
+      <change beforePath="$PROJECT_DIR$/src/Azienda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Azienda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Dipendente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dipendente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +58,21 @@
       <option name="project" value="LOCAL" />
       <updated>1708331167578</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add boilerplate">
+      <created>1708332597191</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708332597191</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add new class Azienda">
+      <created>1708332650149</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1708332650149</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,6 +89,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Add new abstract class Dipendente" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add new abstract class Dipendente" />
+    <MESSAGE value="Add boilderplate" />
+    <MESSAGE value="Add boilerplate" />
+    <MESSAGE value="Add new class Azienda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add new class Azienda" />
   </component>
 </project>
