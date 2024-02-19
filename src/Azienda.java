@@ -25,4 +25,32 @@ public class Azienda {
     public Azienda(String nome, Date dataCreazione, Dipendente[] dipendenti) {
         this(nome, dataCreazione, (ArrayList<Dipendente>) Arrays.asList(dipendenti));
     }
+
+    public double stipendioMedio() {
+        double stipendioTotale = 0;
+        for (Dipendente d : this.dipendenti) {
+            stipendioTotale += d.getStipendioMensile();
+        }
+
+        return stipendioTotale / this.dipendenti.size();
+    }
+
+    public double nDipendenti() {
+        return this.dipendenti.size();
+    }
+
+    public <T extends Dipendente> T piuAnziano () {
+        T anziano = null;
+        for (Dipendente d : this.dipendenti) {
+            try {
+                T tmp = (T) d;
+                if(anziano == null || tmp.getDataAssunzione().getTime() > anziano.getDataAssunzione().getTime()) {
+                    anziano = tmp;
+                }
+            }
+            catch (ClassCastException ignored) {}
+
+            return anziano;
+        }
+    }
 }
